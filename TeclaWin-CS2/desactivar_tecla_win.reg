@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; Desactiva las dos teclas Windows (izquierda E0 5B y derecha E0 5C).
+; Requiere reiniciar el PC para que tenga efecto.
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
+"Scancode Map"=hex:00,00,00,00,00,00,00,00,03,00,00,00,00,00,5b,e0,00,00,5c,e0,00,00,00,00
