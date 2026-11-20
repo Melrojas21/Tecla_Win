@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; Vuelve a activar la tecla Windows borrando el valor "Scancode Map".
+; Requiere reiniciar el PC para que tenga efecto.
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
+"Scancode Map"=-
