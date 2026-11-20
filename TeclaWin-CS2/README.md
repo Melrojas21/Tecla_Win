@@ -1,5 +1,22 @@
 # Tecla Windows desactivada para CS2
 
+> **¿Laptop o el bloqueo del Registro no funcionó?** Usa la opción con AutoHotkey (abajo). En algunas laptops el fabricante maneja la tecla Windows por su cuenta y el Registro no la alcanza.
+
+## Opción recomendada: AutoHotkey (sin reiniciar)
+
+`bloquear_tecla_win_cs2.ahk` bloquea la tecla Windows **solo mientras CS2 es la ventana activa** y **se cierra solo al cerrar CS2**. Gasta unos 2 a 3 MB de RAM y prácticamente nada de CPU.
+
+1. Instala [AutoHotkey v2](https://www.autohotkey.com) (una sola vez).
+2. Antes de jugar (o justo después de abrir CS2), haz doble clic en `bloquear_tecla_win_cs2.ahk`.
+3. Juega. Si haces Alt+Tab fuera del juego, la tecla Windows funciona normal.
+4. Al cerrar CS2, el script se cierra solo.
+
+Si usaste antes el bloqueo del Registro y no funcionó, abre `tecla_win.bat`, elige **2** y reinicia para dejar todo limpio.
+
+---
+
+# Opción con el Registro (Scancode Map)
+
 Scripts para desactivar la tecla Windows mientras juegas Counter-Strike 2 (o cualquier juego), sin dejar ningún programa abierto.
 
 ## Cómo funciona
